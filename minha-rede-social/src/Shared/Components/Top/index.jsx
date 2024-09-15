@@ -1,9 +1,9 @@
 import { TopContainer } from "./style";
 
-const Top = () => {
+const Top = ({ textTitle }) => {
     return(
       <TopContainer>
-        <h1>Aqui é o componente Top</h1>
+        <h1>{textTitle}</h1>
       </TopContainer>
     )
   }
